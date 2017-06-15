@@ -1,0 +1,4 @@
+#dont want the dependencies either - use glide to get them
+/vendor
+/.env
+/coverage.out

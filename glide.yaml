@@ -1,0 +1,9 @@
+package: bitbucket.org/ffxblue/golang-demo
+vcs: git
+import:
+- package: github.com/neelance/graphql-go
+  subpackages:
+  - example/starwars
+  - relay
+- package: google.golang.org/grpc
+  version: ^v1.3.0

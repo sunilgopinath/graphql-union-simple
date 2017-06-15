@@ -1,0 +1,67 @@
+hash: ee59c0188aec23a4e7356a6228e81804b19f7c262609719f00456dd28971d4b5
+updated: 2017-06-15T14:13:46.632573193+10:00
+imports:
+- name: github.com/golang/protobuf
+  version: 18c9bb3261723cd5401db4d0c9fbc5c3b6c70fe8
+  subpackages:
+  - proto
+  - ptypes/any
+- name: github.com/neelance/graphql-go
+  version: fddcbcb791d050972e8eb4177c7e48b14db38824
+  subpackages:
+  - errors
+  - example/starwars
+  - internal/common
+  - internal/exec
+  - internal/exec/resolvable
+  - internal/exec/selected
+  - internal/query
+  - internal/schema
+  - internal/validation
+  - introspection
+  - log
+  - relay
+  - trace
+- name: github.com/opentracing/opentracing-go
+  version: 1949ddbfd147afd4d964a9f00b24eb291e0e7c38
+  subpackages:
+  - ext
+  - log
+- name: golang.org/x/net
+  version: feeb485667d1fdabe727840fe00adc22431bc86e
+  subpackages:
+  - context
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: golang.org/x/text
+  version: 470f45bf29f4147d6fbd7dfd0a02a848e49f5bf4
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: google.golang.org/genproto
+  version: 411e09b969b1170a9f0c467558eb4c4c110d9c77
+  subpackages:
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: 42c095b6c9bdd80d4435b064508c398afdb0ec99
+  subpackages:
+  - codes
+  - credentials
+  - grpclb/grpc_lb_v1
+  - grpclog
+  - internal
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - stats
+  - status
+  - tap
+  - transport
+testImports: []
